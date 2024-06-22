@@ -10,6 +10,18 @@ public class Main {
         System.out.print("division of a and b = ");  System.out.println(a / b);
         return a / b;
     }
+
+    public static double sub(double a, double b) {
+        System.out.print("subtraction of a and b = ");
+        System.out.println(a - b);
+        return a - b;
+
+    }
+    public static double mul(double a, double b) {
+        System.out.print("multiplication of a and b = ");  System.out.println(a * b);
+        return a * b;
+    }
+
     public static void main(String[] args)
     {
         int a=6;
@@ -17,6 +29,7 @@ public class Main {
         add( a,  b);
         div( a,  b);
         sub( a,  b);
+        mul( a,  b);
 
     }
 }
